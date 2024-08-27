@@ -1,0 +1,85 @@
+body {
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.profile {
+    width: 170px;
+    border: 8px solid #A7C957;
+}
+
+.social {
+    flex-direction: row;
+}
+
+.icon:hover {
+    transform: translateY(-5px)
+}
+
+.card {
+    width: 140px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: #386641;
+    color: #ffffff;
+}
+
+.btn {
+    padding:8px 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: 600;
+    background-color: #F2E8CF;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 5px 6px #1d3522;
+}
+
+.icon {
+    width: 30px;
+}
+
+h3:hover, p:hover {
+    background-color: #A7C957;
+}
+
+button:hover {
+    background-color: #BC4749;
+    transform: translateY(-2px);
+}
+
+p:hover {
+    transform: rotate(-4deg);
+}
+
+button:active {
+    background-color: #BC4749;
+    box-shadow: 0px 5px #F2E8CF;
+    transform: translateY(1px);
+}
+
+.profile:hover {
+    border: 8px solid #BC4749;
+}
+
+a:active {
+    color: #F2E8CF;
+}
+
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s): done
+- add border radius: done
+- shuffle the layout: done
+- shadows        🤯
+- hover effects  🤯🤯: done
+- animations     🤯🤯🤯
+*/
+
